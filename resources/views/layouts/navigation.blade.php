@@ -59,7 +59,7 @@
                     </button>
 
                     <button style="margin-right: 10px;"
-                        @click="isYoungMode = !isYoungMode; localStorage.setItem('isYoungMode', isYoungMode)"
+                        @click="isYoungMode = !isYoungMode; localStorage.setItem('isYoungMode', isYoungMode); localStorage.setItem('isChildMode', false)"
                         :class="{
                             'bg-gray-200 border-b dark:bg-gray-800': !
                                 isChildMode,

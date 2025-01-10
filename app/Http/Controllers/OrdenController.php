@@ -182,7 +182,7 @@ public function pedidos(Request $request): View
             $detalleOrden->save();
         } else {
             // Si el producto no existe, crear un nuevo detalle
-            $detalleOrden = $orden->detalleOrdens()->create([
+            $detalleOrden = DetalleOrden::create([
                 'producto_id' => $producto_id,
                 'cantidad' => $cantidad,
                 'precio_unitario' => $precio_unitario,
