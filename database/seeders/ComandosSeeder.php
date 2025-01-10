@@ -22,8 +22,8 @@ class ComandosSeeder extends Seeder
             ['usuario', 'eliminar', 'email', 'usuario eliminar[email@gmail.com]'],
 
             ['cliente', 'listar', 'ninguno', 'cliente listar'],
-            ['cliente', 'agregar', 'name,email,password,direccion,telefono,sexo,cedula_nit', 'cliente agregar[cliente1;cliente1@gmail.com;1234567890;Av Lujan #13 5to anillo;69490587;M;9814088]'],
-            ['cliente', 'modificar', 'id,name,email,password,direccion,telefono,sexo,cedula_nit', 'cliente modificar[1;cliente1;cliente1@gmail.com;1234567890;Av Lujan #13 5to anillo;69490587;M;9814088]'],
+            ['cliente', 'agregar', 'name,email,direccion,telefono,sexo,cedula_nit', 'cliente agregar[cliente1;cliente1@gmail.com;Av Lujan #13 5to anillo;69490587;M;9814088]'],
+        //    ['cliente', 'modificar', 'id,name,email,password,direccion,telefono,sexo,cedula_nit', 'cliente modificar[1;cliente1;cliente1@gmail.com;1234567890;Av Lujan #13 5to anillo;69490587;M;9814088]'],
             ['cliente', 'eliminar', 'email', 'cliente eliminar[email@gmail.com]'],
             
             ['producto', 'listar', 'ninguno', 'producto listar'],
