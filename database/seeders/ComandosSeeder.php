@@ -17,7 +17,7 @@ class ComandosSeeder extends Seeder
             ['comandos', 'listar', 'ninguno', 'help listar'],
 
             ['usuario', 'listar', 'ninguno', 'usuario listar'],
-            ['usuario', 'agregar', 'name,email,password,rol', 'usuario agregar[admtest;admtest@gmail.com;1234567890;admin]'],
+            ['usuario', 'agregar', 'name,email,password,rol', 'usuario agregar[admtest;admtest@uagrm.edu.bo;1234567890;admin]'],
             ['usuario', 'modificar', 'id,name,email,password,rol', 'usuario modificar[1;admtest1;admtest1@gmail.com;1234567890;admin]'],
             ['usuario', 'eliminar', 'email', 'usuario eliminar[email@gmail.com]'],
 
