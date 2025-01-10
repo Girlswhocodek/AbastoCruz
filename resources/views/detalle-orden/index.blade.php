@@ -28,7 +28,7 @@
                     <!-- Mostrar mensaje si la orden ya ha sido pedida -->
                     @if($mensaje)
                         <div class="mt-8 p-4 bg-yellow-100 border border-yellow-300 rounded-md">
-                            <p class="text-sm text-black text-gray-800">{{ $mensaje }}</p>
+                            <p class="text-sm text-black">{{ $mensaje }}</p>
                         </div>
                     @endif
 
@@ -84,7 +84,7 @@
                         </div>
                     @else
                         <div class="mt-8 p-4 bg-yellow-100 border border-yellow-300 rounded-md">
-                            <p class="text-sm text-gray-800">{{ __('No tienes productos en tu orden.') }}</p>
+                            <p class="text-sm text-black">{{ __('No tienes productos en tu orden.') }}</p>
                         </div>
                     @endif
 
